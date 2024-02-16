@@ -24,7 +24,7 @@ st.write('Take 5 min to walk through each of the follow questions that correspon
 st.divider()
 
 
-t1, t2, t3 = st.tabs(['Diagram', 'Overview', 'How to Use'])
+t1, t2, t3, t4 = st.tabs(['Diagram', 'Overview', 'How to Use', 'Verses'])
 
 with t1:
     st.image('Processing Emotions.drawio.png')
@@ -53,7 +53,7 @@ was put on Him, not on you. And He was raised to prove that His sacrifice on you
 
 Whatever your past you can be free from it by the blood of Christ. If you haven't put your faith in His work on the cross and trust Him to redeem you for the rest of your days.
 
-For by one sacrifice He has made perfect forever those who are being made holy. Hebrews 10:14
+*For by one sacrifice He has made perfect forever those who are being made holy. Hebrews 10:14*
                 """)
         
       
@@ -61,29 +61,35 @@ with t3:
 
     st.markdown("""# To use this follow these steps:   
                 
-    1. Answer each of the following questions below    
-        - What are your current circumstances?
-        - What are your current emotions?
-        - When have you experienced either similar circumstances or emotions?
-        - What stories come to mind?
-        - What did you do in the past?
-        - What stories/verses from the Bible come to mind when you think of your stories?
-        - What do you think God has to say about those stories?
-     
-    2. Pray after answering all of the questions
-        The heart of praying is to bring what is broken to God.
+1. Answer each of the following questions below    
+    - What are your current circumstances?
+    - What are your current emotions?
+    - When have you experienced either similar circumstances or emotions?
+    - What stories come to mind?
+    - What did you do in the past?
+    - What stories/verses from the Bible come to mind when you think of your stories?
+    - What do you think God has to say about those stories?
+    """)
+    st.write('')   
         
-        Remember the gospel:
-            - God is Holy
-            - We have sinned
-            - Jesus died and was raised
-            - What is your response?
+    st.markdown("""
+    2. Pray after answering all of the questions
+        
+    - *Remember the gospel*
+        - God is Holy
+        - We have sinned
+        - Jesus died and was raised
+        - What is your response?
 
-        Remember:
-            - God hears your prayers
-            - It doesn't have to be pretty just honest
-            - God knows your story and your brokeness
-                            
+    - *Remember about prayer*
+        - God hears your prayers
+        - It doesn't have to be pretty just honest
+        - God knows your story and your brokeness
+            """)
+    
+    st.write('')    
+    
+    st.markdown("""                     
     3. Connect with a friend 
         - Share a story you just remembered
         - Share what truth came to mind
@@ -92,6 +98,63 @@ with t3:
                 
                 """)
 
+
+with t4:
+    st.markdown('# For each step here are some verses')
+    
+    
+    tc1, tc2 = st.columns(2)
+    
+    with tc1:
+        st.markdown("""
+            Old Response: 
+            - Romans 7
+            - Luke 6:43-45
+
+            Circumstances:
+            - 1 Corinthians 6:18
+            - 1 Peter 2:11
+            - Ephesians 5:3 
+            - Titus 2:11
+
+            Emotions:
+            - Most Psalms
+            - 1 John 3:19-24
+            - 1 Corinthians 10:13
+            """)
+        
+        
+    with tc2:
+        st.markdown("""
+            Old Story:
+            - 1 Peter 1:18-19
+            - Romans 8
+            - Luke 6:20-26
+            - Mark 8
+            - Genesis 3-5
+
+            Gospel:
+            - John 3
+            - 2 Corithians 5:17
+            - John 1:5 
+            - John 1:14
+            - Romans 6
+            - 2 Corithians 5:21
+
+            New Story:
+            - 1 John 3:1-3
+            - John 4
+            - Romans 12
+            - Ephesians 2:8-10
+
+            New Response:
+            - 1 John 1:9
+            - Romans 12:1-2
+            - Hebrews 11:6
+            - John 10:10
+            - Peter 4:7
+                                    """)
+    
     
         
 def view_answer(x, sess):
