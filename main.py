@@ -20,7 +20,7 @@ if 'truth' not in st.session_state:
 
 st.markdown(f"<h1 style='text-align: center; font-size: 30px'>Engaging Your Story</h1>", unsafe_allow_html=True)   
 st.write('') 
-st.write('Take 5 min to walk through each of the follow questions that correspond to the diagram below. This is designed as a tool to help you dig up stories and events from your past that are still affecting you today.')
+st.write('Take 5 minutes to walk through each of the following questions that correspond to the diagram below. This is designed as a tool to help you dig up stories and events from your past that are still affecting you today.')
 st.divider()
 
 
