@@ -121,17 +121,20 @@ with t4:
             - Most Psalms
             - 1 John 3:19-24
             - 1 Corinthians 10:13
-            """)
-        
-        
-    with tc2:
-        st.markdown("""
+            
             Old Story:
             - 1 Peter 1:18-19
             - Romans 8
             - Luke 6:20-26
             - Mark 8
             - Genesis 3-5
+            
+            """)
+        
+        
+    with tc2:
+        st.markdown("""
+            
 
             Gospel:
             - John 3
