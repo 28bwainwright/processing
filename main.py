@@ -68,7 +68,7 @@ with t3:
     - What stories come to mind?
     - What did you do in the past?
     - What stories/verses from the Bible come to mind when you think of your stories?
-    - What do you think God has to say about those stories?
+    
     """)
     st.write('')   
         
@@ -214,9 +214,7 @@ with st.expander('Questions'):
 
         view_answer(x6, st.session_state.truth)
         
-        x7 = st.text_input("What do you think God has to say about those stories?", '')
-
-        view_answer(x7, st.session_state.truth)
+        
 
 
         st.form_submit_button(use_container_width=True)
