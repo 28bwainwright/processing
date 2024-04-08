@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space
 
 
-st.set_page_config('Emotions', layout='centered')
+st.set_page_config('Emotions', layout='wide')
 
 if 'circumstances' not in st.session_state:
     st.session_state.circumstances = []
@@ -51,7 +51,7 @@ of God that you were supposed to reflect to the world with your life.
 But Jesus died so that the punishment you deserved for not reflecting God's image to the world
 was put on Him, not on you. And He was raised to prove that His sacrifice on your behalf was accepted and that new life is possible. 
 
-Whatever your past you can be free from it by the blood of Christ. If you haven't put your faith in His work on the cross and trust Him to redeem you for the rest of your days.
+Whatever your past you can be free from it by the blood of Christ. If you haven't, put your faith in His work on the cross and trust Him to redeem you for the rest of your days.
 
 *For by one sacrifice He has made perfect forever those who are being made holy. Hebrews 10:14*
                 """)
